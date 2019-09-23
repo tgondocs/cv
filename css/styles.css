@@ -14,11 +14,11 @@ body {
   background-image: linear-gradient(to bottom right, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.25)), url("../bg.jpg");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover; }
+  background-size: cover;
+  min-height: 100vh; }
 
 .cv {
   max-width: 800px;
-  height: 100%;
   margin: 5rem auto;
   background-color: var(--color-white);
   overflow: hidden;
